@@ -1,1 +1,255 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pandaförsäljning</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+  <header>
+    <div class="top-buttons">
+      <button class="btn-header" onclick="openAdminModal()">🔑 Admin</button>
+      <button class="btn-header" onclick="toggleCart()">🛒 Varukorg (<span id="cart-count">0</span>)</button>
+    </div>
+    <h1 id="site-title">Laddar...</h1>
+    <p id="banner-text"></p>
+  </header>
+
+  <main class="container">
+    <div id="closed-message" class="alert-closed hidden">
+      Tack för det enorma intresset! Årets beställningar är nu stängda så att alla paket ska hinnas packas och skickas i tid.
+    </div>
+
+    <h2>Katalog</h2>
+    <div id="product-grid" class="grid"></div>
+  </main>
+
+  <!-- VARUKORG & KASSA MODAL -->
+  <div id="cart-modal" class="modal hidden">
+    <div class="modal-content">
+      <button class="close-btn" onclick="toggleCart()">&times;</button>
+      <h2>Din Varukorg</h2>
+      <div id="cart-items"></div>
+      <p><strong>Totalt: <span id="cart-total">0</span> kr</strong></p>
+
+      <hr>
+
+      <h3>Skicka beställning</h3>
+      <!-- BYT UT DIN_FORMSPREE_ID_HÄR MOT DITT ID FRÅN FORMSPREE.IO -->
+      <form action="https://formspree.io/f/DIN_FORMSPREE_ID_HÄR" method="POST" id="checkout-form">
+        <input type="hidden" name="Beställning" id="form-order-details">
+        <input type="hidden" name="Totalbelopp" id="form-total-price">
+
+        <label>För- och Efternamn:
+          <input type="text" name="Namn" required>
+        </label>
+        
+        <label>Leveransadress (Gata, Postnr, Ort):
+          <input type="text" name="Adress" required>
+        </label>
+
+        <label>Telefonnummer (för Swish/avisering):
+          <input type="tel" name="Telefon" required>
+        </label>
+
+        <label>E-postadress:
+          <input type="email" name="Epost" required>
+        </label>
+
+        <label>Meddelande till säljaren:
+          <textarea name="Meddelande" rows="2"></textarea>
+        </label>
+
+        <p class="small-note">
+          Genom att skicka godkänner du att kontaktuppgifterna behandlas för att hantera din Panda-order. Betalning sker via Swish i samband med leverans.
+        </p>
+
+        <button type="submit" class="btn-add" style="width: 100%;">Skicka Beställning</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ADMIN MODAL -->
+  <div id="admin-modal" class="modal hidden">
+    <div class="modal-content">
+      <button class="close-btn" onclick="closeAdminModal()">&times;</button>
+      
+      <div id="admin-login-view">
+        <h2>Admin Inloggning</h2>
+        <p>Mata in lösenordet för att redigera sidan:</p>
+        <input type="password" id="admin-password-input" placeholder="Lösenord">
+        <button class="btn-add" style="width: 100%; margin-top: 0.8rem;" onclick="checkAdminPassword()">Logga in</button>
+      </div>
+
+      <div id="admin-panel-view" class="hidden">
+        <h2>Adminpanel</h2>
+        
+        <label>Rubrik: <input type="text" id="edit-site-title"></label>
+        <label>Bannertext: <input type="text" id="edit-banner-text"></label>
+        <label style="margin-top: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+          <input type="checkbox" id="edit-order-open" style="width: auto;"> Tillåt nya beställningar
+        </label>
+
+        <hr style="margin: 1rem 0;">
+
+        <h3>Produkter</h3>
+        <div id="admin-products-list"></div>
+        <button onclick="addNewProduct()" style="margin-top: 0.5rem; background: #6c757d;" class="btn-add">+ Lägg till produkt</button>
+
+        <hr style="margin: 1rem 0;">
+        <button onclick="exportJSON()" class="btn-add" style="width: 100%; background: #28a745;">Ladda ner ny products.json</button>
+        <p class="small-note">Ersätt din nuvarande <code>products.json</code> på GitHub med filen som laddas ner för att spara ändringarna på sajten.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Lösenordet för admin-panelen
+    const ADMIN_PASSWORD = "Vindruva"; 
+
+    let siteData = {};
+    let cart = [];
+
+    async function loadData() {
+      try {
+        const res = await fetch('products.json');
+        siteData = await res.json();
+        renderSite();
+      } catch (err) {
+        console.error("Kunde inte ladda products.json", err);
+      }
+    }
+
+    function renderSite() {
+      document.getElementById('site-title').innerText = siteData.siteTitle;
+      document.getElementById('banner-text').innerText = siteData.bannerText;
+
+      const grid = document.getElementById('product-grid');
+      grid.innerHTML = '';
+
+      if (!siteData.isOrderOpen) {
+        document.getElementById('closed-message').classList.remove('hidden');
+        document.getElementById('checkout-form').classList.add('hidden');
+      } else {
+        document.getElementById('closed-message').classList.add('hidden');
+        document.getElementById('checkout-form').classList.remove('hidden');
+      }
+
+      siteData.products.forEach(p => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+          <img src="${p.image}" alt="${p.name}">
+          <h3>${p.name}</h3>
+          <p class="price">${p.price} kr</p>
+          <p>${p.description}</p>
+          ${siteData.isOrderOpen ? `<button class="btn-add" onclick="addToCart(${p.id})">Lägg i varukorg</button>` : ''}
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function addToCart(id) {
+      const product = siteData.products.find(p => p.id === id);
+      cart.push(product);
+      updateCartUI();
+    }
+
+    function updateCartUI() {
+      document.getElementById('cart-count').innerText = cart.length;
+      const cartItems = document.getElementById('cart-items');
+      cartItems.innerHTML = '';
+      
+      let total = 0;
+      let orderSummary = [];
+
+      cart.forEach((item, index) => {
+        total += item.price;
+        orderSummary.push(`${item.name} (${item.price} kr)`);
+        cartItems.innerHTML += `<p style="display:flex; justify-content:space-between; margin:0.4rem 0;"><span>${item.name} - ${item.price} kr</span> <button onclick="removeFromCart(${index})" style="background:none;border:none;cursor:pointer;">❌</button></p>`;
+      });
+
+      document.getElementById('cart-total').innerText = total;
+      document.getElementById('form-order-details').value = orderSummary.join(', ');
+      document.getElementById('form-total-price').value = total + ' kr';
+    }
+
+    function removeFromCart(index) {
+      cart.splice(index, 1);
+      updateCartUI();
+    }
+
+    function toggleCart() {
+      document.getElementById('cart-modal').classList.toggle('hidden');
+    }
+
+    function openAdminModal() { document.getElementById('admin-modal').classList.remove('hidden'); }
+    function closeAdminModal() { document.getElementById('admin-modal').classList.add('hidden'); }
+
+    function checkAdminPassword() {
+      const input = document.getElementById('admin-password-input').value;
+      if (input === ADMIN_PASSWORD) {
+        document.getElementById('admin-login-view').classList.add('hidden');
+        document.getElementById('admin-panel-view').classList.remove('hidden');
+        loadAdminPanel();
+      } else {
+        alert('Fel lösenord!');
+      }
+    }
+
+    function loadAdminPanel() {
+      document.getElementById('edit-site-title').value = siteData.siteTitle;
+      document.getElementById('edit-banner-text').value = siteData.bannerText;
+      document.getElementById('edit-order-open').checked = siteData.isOrderOpen;
+
+      const list = document.getElementById('admin-products-list');
+      list.innerHTML = '';
+
+      siteData.products.forEach((p, i) => {
+        list.innerHTML += `
+          <div class="admin-row">
+            <input type="text" value="${p.name}" onchange="siteData.products[${i}].name = this.value" placeholder="Namn">
+            <input type="number" value="${p.price}" onchange="siteData.products[${i}].price = Number(this.value)" style="width:70px;" placeholder="Pris">
+            <button onclick="removeProduct(${i})" style="background:#dc3545; color:white; border:none; border-radius:4px;">❌</button>
+          </div>
+        `;
+      });
+    }
+
+    function addNewProduct() {
+      siteData.products.push({
+        id: Date.now(),
+        name: "Ny Produkt",
+        category: "Övrigt",
+        price: 100,
+        image: "https://via.placeholder.com/300x200",
+        description: "Beskrivning av produkten..."
+      });
+      loadAdminPanel();
+    }
+
+    function removeProduct(i) {
+      siteData.products.splice(i, 1);
+      loadAdminPanel();
+    }
+
+    function exportJSON() {
+      siteData.siteTitle = document.getElementById('edit-site-title').value;
+      siteData.bannerText = document.getElementById('edit-banner-text').value;
+      siteData.isOrderOpen = document.getElementById('edit-order-open').checked;
+
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(siteData, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", "products.json");
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+    }
+
+    loadData();
+  </script>
+</body>
+</html>
