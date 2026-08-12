@@ -1,31 +1,23 @@
-{
-  "siteTitle": "Pandaförsäljning - Samlarutbud",
-  "bannerText": "Välkommen! Köp årets populära samlarobjekt och outdoor-utrustning direct via mig.",
-  "isOrderOpen": true,
-  "products": [
+[
     {
-      "id": 1,
-      "name": "Årets Samlarfigur 2026",
-      "category": "Samlarobjekt",
-      "price": 199,
-      "image": "https://via.placeholder.com/300x200?text=Samlarfigur",
-      "description": "Årets exklusiva pandasamlarfigur. Perfekt för dig som samlar varje år!"
+        "id": "produkt-001",
+        "name": "Exempelprodukt 1",
+        "description": "Beskrivning av produkten kommer här.",
+        "price": 149,
+        "image": "images/product-001.jpg"
     },
     {
-      "id": 2,
-      "name": "Outdoor Sockor (Varma)",
-      "category": "Kläder & Utrustning",
-      "price": 149,
-      "image": "https://via.placeholder.com/300x200?text=Outdoor+Socks",
-      "description": "Slitstarka och varma outdoor-strumpor för friluftsliv och kalla dagar."
+        "id": "produkt-002",
+        "name": "Exempelprodukt 2",
+        "description": "En annan exempelprodukt.",
+        "price": 99,
+        "image": "images/product-002.jpg"
     },
     {
-      "id": 3,
-      "name": "Panda Nyckelring",
-      "category": "Tillbehör",
-      "price": 49,
-      "image": "https://via.placeholder.com/300x200?text=Nyckelring",
-      "description": "Söt nyckelring till väskan eller nyckelknippan."
+        "id": "produkt-003",
+        "name": "Exempelprodukt 3",
+        "description": "Ytterligare en exempelprodukt.",
+        "price": 199,
+        "image": "images/product-003.jpg"
     }
-  ]
-}
+]
