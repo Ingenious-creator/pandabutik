@@ -1,1 +1,249 @@
+<!DOCTYPE html>
+<html lang="sv">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Skicka beställning – Pandaförsäljningen</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<header class="site-header">
+
+    <div class="container header-inner">
+
+        <a href="index.html" class="logo">
+            Pandaförsäljningen
+        </a>
+
+        <nav>
+
+            <a href="products.html">
+                Produkter
+            </a>
+
+            <a href="cart.html">
+                Kundkorg
+                <span id="cart-count">0</span>
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="page-header">
+
+        <div class="container">
+
+            <h1>Skicka beställning</h1>
+
+            <p>
+                Fyll i dina uppgifter nedan.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="checkout-section">
+
+        <div class="container checkout-grid">
+
+
+            <div>
+
+                <form
+                    id="order-form"
+                    action="DIN_FORMSPREE_URL"
+                    method="POST"
+                >
+
+                    <h2>Dina uppgifter</h2>
+
+
+                    <label for="name">
+                        Namn
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                    >
+
+
+                    <label for="email">
+                        E-post
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                    >
+
+
+                    <label for="phone">
+                        Telefonnummer
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        required
+                    >
+
+
+                    <label for="address">
+                        Leveransadress
+                    </label>
+
+                    <textarea
+                        id="address"
+                        name="address"
+                        rows="4"
+                        required
+                    ></textarea>
+
+
+                    <label for="message">
+                        Meddelande
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        placeholder="Valfritt"
+                    ></textarea>
+
+
+                    <!--
+                        checkout.js fyller automatiskt
+                        i orderinformationen här.
+                    -->
+
+                    <input
+                        type="hidden"
+                        name="order"
+                        id="order-data"
+                    >
+
+                    <input
+                        type="hidden"
+                        name="product_total"
+                        id="product-total"
+                    >
+
+
+                    <div class="checkout-notice">
+
+                        <strong>
+                            Observera
+                        </strong>
+
+                        <p>
+                            Detta är en beställningsförfrågan.
+                            Ingen betalning sker på denna webbplats.
+                        </p>
+
+                        <p>
+                            Frakt tillkommer.
+                            Efter att produkterna har kommit
+                            skickas information om slutligt pris
+                            och betalning via Swish.
+                        </p>
+
+                    </div>
+
+
+                    <label class="checkbox-label">
+
+                        <input
+                            type="checkbox"
+                            id="terms"
+                            required
+                        >
+
+                        <span>
+                            Jag förstår att detta är en
+                            beställningsförfrågan och att frakt
+                            tillkommer.
+                        </span>
+
+                    </label>
+
+
+                    <button
+                        type="submit"
+                        class="button"
+                    >
+                        Skicka beställning
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <aside>
+
+                <div id="checkout-summary">
+
+                    <h2>Din beställning</h2>
+
+                    <p>
+                        Laddar...
+                    </p>
+
+                </div>
+
+            </aside>
+
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="container">
+
+        <p>
+            Fristående tjänst – inte officiell
+            Pandaförsäljningen-webbplats.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="checkout.js"></script>
+
+</body>
+
+</html>
