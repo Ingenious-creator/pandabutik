@@ -97,10 +97,11 @@ function displayCheckout() {
         total += itemTotal;
 
 
-        orderText +=
-            `${item.quantity} x ${product.name} — ` +
-            `${itemTotal} kr\n`;
-
+      orderText +=
+    `Produkt-ID: ${product.id.replace("produkt-", "")}\n` +
+    `Produkt: ${product.name}\n` +
+    `Antal: ${item.quantity}\n` +
+    `Summa: ${itemTotal} kr\n\n`;
 
         html += `
             <div class="checkout-item">
