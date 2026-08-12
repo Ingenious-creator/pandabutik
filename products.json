@@ -1,29 +1,29 @@
 [
     {
         "id": "produkt-001",
-        "name": "Samlartomte 2026",
-        "description": "1.Samlartomte 2026\nPris:\n149:-\nVår populära samlartomte har i år formgivits av Linda Ericsson och visar tomten tillsammans med sin lykta, säck och goda kamrat haren. Med skogens vänner vid sin sida sprider tomten trygghet, glädje och julens magi i varje vrå. Komplettera din samling med denna duo som förgyller ditt hem år efter år!\nMått: 11 x 7 x 5 cm.",
+        "name": "1. Samlartomte 2026",
+        "description": "Samlartomte 2026\nPris:\n149:-\nVår populära samlartomte har i år formgivits av Linda Ericsson och visar tomten tillsammans med sin lykta, säck och goda kamrat haren. Med skogens vänner vid sin sida sprider tomten trygghet, glädje och julens magi i varje vrå. Komplettera din samling med denna duo som förgyller ditt hem år efter år!\nMått: 11 x 7 x 5 cm.",
         "price": 149,
         "image": "images/001.jpg"
     },
     {
         "id": "produkt-002",
-        "name": "Saltlakrits (salmiak)",
-        "description": "2.Saltlakrits (salmiak)\nPris:\n129:-\nUpptäck två smakrika lakritsvarianter med härlig fast konsistens, djup smak och vacker glans – en sötare och en med rejäl sälta. Hantverksmässigt tillverkade av Brunberg i Finland, ett klassiskt konfektyrföretag med rötter från 1932. Ett måste för alla lakritsälskare!\nLaktosfri. Innehåller gluten. Vikt: 250 gram.",
+        "name": "2. Saltlakrits (salmiak)",
+        "description": "Saltlakrits (salmiak)\nPris:\n129:-\nUpptäck två smakrika lakritsvarianter med härlig fast konsistens, djup smak och vacker glans – en sötare och en med rejäl sälta. Hantverksmässigt tillverkade av Brunberg i Finland, ett klassiskt konfektyrföretag med rötter från 1932. Ett måste för alla lakritsälskare!\nLaktosfri. Innehåller gluten. Vikt: 250 gram.",
         "price": 129,
         "image": "images/002.jpg"
     },
     {
         "id": "produkt-003",
-        "name": "Sötlakrits",
-        "description": "3.Sötlakrits\nPris:\n129:-\nUpptäck två smakrika lakritsvarianter med härlig fast konsistens, djup smak och vacker glans – en sötare och en med rejäl sälta. Hantverksmässigt tillverkade av Brunberg i Finland, ett klassiskt konfektyrföretag med rötter från 1932. Ett måste för alla lakritsälskare!\nLaktosfri. Innehåller gluten. Vikt: 250 gram.",
+        "name": "3. Sötlakrits",
+        "description": "Sötlakrits\nPris:\n129:-\nUpptäck två smakrika lakritsvarianter med härlig fast konsistens, djup smak och vacker glans – en sötare och en med rejäl sälta. Hantverksmässigt tillverkade av Brunberg i Finland, ett klassiskt konfektyrföretag med rötter från 1932. Ett måste för alla lakritsälskare!\nLaktosfri. Innehåller gluten. Vikt: 250 gram.",
         "price": 129,
         "image": "images/003.jpg"
     },
     {
         "id": "produkt-004",
-        "name": "Uppladdningsbar pannlampa",
-        "description": "Startsida\nPandakatalogen\nUppladdningsbar pannlampa",
+        "name": "4. Uppladdningsbar pannlampa",
+        "description": "Uppladdningsbar pannlampa med vitt och rött ljus, fast eller blinkande – perfekt på kvällspromenader, cykelturer och bilmekande. Den justerbara vinkeln gör att du enkelt riktar ljuset dit det behövs./nLampan laddas via USB-C och har 2–4 timmars batteritid. Justerbart pannband. Mått: 6 x 4 x 3,5 cm. ",
         "price": 199,
         "image": "images/004.jpg"
     },
