@@ -1,0 +1,811 @@
+/* =========================
+   GRUND
+========================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --green: #1f6b45;
+    --green-dark: #164b32;
+    --green-light: #eaf4ee;
+
+    --cream: #faf8f2;
+    --white: #ffffff;
+
+    --text: #202520;
+    --muted: #687068;
+
+    --border: #deded8;
+
+    --max-width: 1150px;
+}
+
+
+body {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+    background: var(--cream);
+    color: var(--text);
+
+    line-height: 1.6;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+.container {
+    width: min(
+        var(--max-width),
+        calc(100% - 40px)
+    );
+
+    margin: 0 auto;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.site-header {
+    background: var(--white);
+
+    border-bottom:
+        1px solid var(--border);
+
+    position: sticky;
+    top: 0;
+
+    z-index: 100;
+}
+
+
+.header-inner {
+    min-height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: 800;
+
+    color: var(--green);
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+nav a {
+    font-weight: 600;
+}
+
+
+nav a:hover {
+    color: var(--green);
+}
+
+
+#cart-count {
+    display: inline-flex;
+
+    min-width: 22px;
+    height: 22px;
+
+    padding: 0 6px;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 999px;
+
+    background: var(--green);
+    color: white;
+
+    font-size: 0.8rem;
+}
+
+
+/* =========================
+   KNAPPAR
+========================= */
+
+.button {
+    display: inline-block;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 12px 20px;
+
+    background: var(--green);
+    color: white;
+
+    font: inherit;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s,
+        transform 0.2s;
+}
+
+
+.button:hover {
+    background: var(--green-dark);
+
+    transform: translateY(-1px);
+}
+
+
+button.button {
+    width: auto;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    padding: 100px 0;
+
+    background:
+        linear-gradient(
+            135deg,
+            #edf6ef,
+            #faf8f2
+        );
+}
+
+
+.hero-content {
+    max-width: 700px;
+}
+
+
+.eyebrow {
+    margin-bottom: 10px;
+
+    color: var(--green);
+
+    font-size: 0.9rem;
+    font-weight: 800;
+
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+
+.hero h1 {
+    margin-bottom: 20px;
+
+    font-size: clamp(
+        2.4rem,
+        6vw,
+        4.5rem
+    );
+
+    line-height: 1.05;
+}
+
+
+.hero-text {
+    max-width: 600px;
+
+    margin-bottom: 30px;
+
+    color: var(--muted);
+
+    font-size: 1.15rem;
+}
+
+
+/* =========================
+   NOTICE
+========================= */
+
+.notice-section {
+    padding: 60px 0;
+}
+
+
+.notice {
+    padding: 30px;
+
+    border-left:
+        5px solid var(--green);
+
+    border-radius: 10px;
+
+    background: var(--white);
+
+    box-shadow:
+        0 4px 20px
+        rgba(0, 0, 0, 0.05);
+}
+
+
+.notice h2 {
+    margin-bottom: 15px;
+}
+
+
+.notice p + p {
+    margin-top: 12px;
+}
+
+
+/* =========================
+   INFO
+========================= */
+
+.info-section {
+    padding: 70px 0;
+}
+
+
+.info-section > .container > h2 {
+    margin-bottom: 30px;
+
+    font-size: 2rem;
+}
+
+
+.steps {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+
+.step {
+    padding: 25px;
+
+    background: white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 10px;
+}
+
+
+.step span {
+    display: flex;
+
+    width: 40px;
+    height: 40px;
+
+    margin-bottom: 15px;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: var(--green);
+    color: white;
+
+    font-weight: 800;
+}
+
+
+.step h3 {
+    margin-bottom: 8px;
+}
+
+
+.step p {
+    color: var(--muted);
+}
+
+
+/* =========================
+   PAGE HEADER
+========================= */
+
+.page-header {
+    padding: 60px 0 40px;
+}
+
+
+.page-header h1 {
+    margin-bottom: 10px;
+
+    font-size: 3rem;
+}
+
+
+.page-header p {
+    color: var(--muted);
+}
+
+
+/* =========================
+   PRODUKTER
+========================= */
+
+.products-section {
+    padding-bottom: 80px;
+}
+
+
+.products-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+.product-card {
+    overflow: hidden;
+
+    background: white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 12px;
+
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+}
+
+
+.product-card:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.08);
+}
+
+
+.product-image-wrapper {
+    height: 260px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #f1f1ec;
+}
+
+
+.product-image {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+
+.product-content {
+    padding: 22px;
+}
+
+
+.product-content h2 {
+    margin-bottom: 8px;
+
+    font-size: 1.25rem;
+}
+
+
+.product-description {
+    min-height: 50px;
+
+    margin-bottom: 15px;
+
+    color: var(--muted);
+}
+
+
+.product-price {
+    margin-bottom: 18px;
+
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+
+/* =========================
+   KUNDKORG
+========================= */
+
+.cart-section {
+    padding-bottom: 80px;
+}
+
+
+.cart-items {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+
+.cart-item {
+    display: grid;
+
+    grid-template-columns:
+        1fr auto auto auto;
+
+    align-items: center;
+
+    gap: 25px;
+
+    padding: 20px;
+
+    background: white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 10px;
+}
+
+
+.cart-item h2 {
+    font-size: 1.1rem;
+}
+
+
+.cart-item p {
+    color: var(--muted);
+}
+
+
+.quantity-controls {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+
+.quantity-controls button {
+    width: 32px;
+    height: 32px;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 6px;
+
+    background: white;
+
+    cursor: pointer;
+
+    font-size: 1.1rem;
+}
+
+
+.remove-button {
+    border: none;
+
+    background: none;
+
+    color: #a33;
+
+    cursor: pointer;
+
+    font: inherit;
+}
+
+
+.cart-summary {
+    max-width: 500px;
+
+    margin-top: 30px;
+    margin-left: auto;
+
+    padding: 25px;
+
+    background: white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 10px;
+}
+
+
+.cart-total {
+    margin: 5px 0 10px;
+
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+.cart-summary .button {
+    margin-top: 20px;
+}
+
+
+.empty-cart {
+    padding: 60px 20px;
+
+    text-align: center;
+
+    background: white;
+
+    border-radius: 10px;
+}
+
+
+/* =========================
+   CHECKOUT
+========================= */
+
+.checkout-section {
+    padding-bottom: 80px;
+}
+
+
+.checkout-grid {
+    display: grid;
+
+    grid-template-columns:
+        1.5fr 1fr;
+
+    gap: 40px;
+
+    align-items: start;
+}
+
+
+form,
+#checkout-summary {
+    padding: 30px;
+
+    background: white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 10px;
+}
+
+
+form h2,
+#checkout-summary h2 {
+    margin-bottom: 25px;
+}
+
+
+label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-weight: 700;
+}
+
+
+input,
+textarea {
+    width: 100%;
+
+    margin-bottom: 20px;
+
+    padding: 12px 14px;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 7px;
+
+    background: white;
+
+    color: var(--text);
+
+    font: inherit;
+}
+
+
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--green);
+    outline-offset: 1px;
+}
+
+
+.checkout-notice {
+    margin: 10px 0 20px;
+
+    padding: 18px;
+
+    background: var(--green-light);
+
+    border-radius: 8px;
+}
+
+
+.checkout-notice p {
+    margin-top: 8px;
+}
+
+
+.checkbox-label {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+
+    font-weight: 400;
+}
+
+
+.checkbox-label input {
+    width: auto;
+
+    margin-top: 5px;
+}
+
+
+.checkout-item {
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    padding: 10px 0;
+
+    border-bottom:
+        1px solid var(--border);
+}
+
+
+.checkout-total {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 15px;
+
+    font-size: 1.2rem;
+}
+
+
+#checkout-summary > p {
+    margin-top: 15px;
+
+    color: var(--muted);
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 30px 0;
+
+    background: #1e241f;
+
+    color: #dfe4df;
+
+    text-align: center;
+
+    font-size: 0.9rem;
+}
+
+
+/* =========================
+   MOBIL
+========================= */
+
+@media (max-width: 850px) {
+
+    .steps {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+
+    .products-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+
+    .checkout-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .container {
+        width: min(
+            var(--max-width),
+            calc(100% - 25px)
+        );
+    }
+
+
+    .header-inner {
+        flex-direction: column;
+
+        padding: 15px 0;
+    }
+
+
+    nav {
+        gap: 15px;
+    }
+
+
+    .hero {
+        padding: 70px 0;
+    }
+
+
+    .steps,
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .cart-item {
+        grid-template-columns: 1fr;
+
+        gap: 12px;
+    }
+
+
+    .page-header h1 {
+        font-size: 2.2rem;
+    }
+
+}
