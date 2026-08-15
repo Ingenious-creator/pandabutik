@@ -1,28 +1,28 @@
 [
     {
         "id": "produkt-001",
-        "name": "1. Samlartomte 2026",
-        "description": "Samlartomte 2026\nPris:\n149:-\nVår populära samlartomte har i år formgivits av Linda Ericsson och visar tomten tillsammans med sin lykta, säck och goda kamrat haren. Med skogens vänner vid sin sida sprider tomten trygghet, glädje och julens magi i varje vrå. Komplettera din samling med denna duo som förgyller ditt hem år efter år!\nMått: 11 x 7 x 5 cm.",
+        "name": "Samlartomte 2026",
+        "description": "Vår populära samlartomte har i år formgivits av Linda Ericsson och visar tomten tillsammans med sin lykta, säck och goda kamrat haren. Med skogens vänner vid sin sida sprider tomten trygghet, glädje och julens magi i varje vrå. Komplettera din samling med denna duo som förgyller ditt hem år efter år!\nMått: 11 x 7 x 5 cm.",
         "price": 149,
         "image": "images/001.jpg"
     },
     {
         "id": "produkt-002",
-        "name": "2. Saltlakrits (salmiak)",
-        "description": "Saltlakrits (salmiak)\nPris:\n129:-\nUpptäck två smakrika lakritsvarianter med härlig fast konsistens, djup smak och vacker glans – en sötare och en med rejäl sälta. Hantverksmässigt tillverkade av Brunberg i Finland, ett klassiskt konfektyrföretag med rötter från 1932. Ett måste för alla lakritsälskare!\nLaktosfri. Innehåller gluten. Vikt: 250 gram.",
+        "name": "Saltlakrits (salmiak)",
+        "description": "Upptäck två smakrika lakritsvarianter med härlig fast konsistens, djup smak och vacker glans – en sötare och en med rejäl sälta. Hantverksmässigt tillverkade av Brunberg i Finland, ett klassiskt konfektyrföretag med rötter från 1932. Ett måste för alla lakritsälskare!\nLaktosfri. Innehåller gluten. Vikt: 250 gram.",
         "price": 129,
         "image": "images/002.jpg"
     },
     {
         "id": "produkt-003",
-        "name": "3. Sötlakrits",
-        "description": "Sötlakrits\nPris:\n129:-\nUpptäck två smakrika lakritsvarianter med härlig fast konsistens, djup smak och vacker glans – en sötare och en med rejäl sälta. Hantverksmässigt tillverkade av Brunberg i Finland, ett klassiskt konfektyrföretag med rötter från 1932. Ett måste för alla lakritsälskare!\nLaktosfri. Innehåller gluten. Vikt: 250 gram.",
+        "name": "Sötlakrits",
+        "description": "Upptäck två smakrika lakritsvarianter med härlig fast konsistens, djup smak och vacker glans – en sötare och en med rejäl sälta. Hantverksmässigt tillverkade av Brunberg i Finland, ett klassiskt konfektyrföretag med rötter från 1932. Ett måste för alla lakritsälskare!\nLaktosfri. Innehåller gluten. Vikt: 250 gram.",
         "price": 129,
         "image": "images/003.jpg"
     },
     {
         "id": "produkt-004",
-        "name": "4. Uppladdningsbar pannlampa",
+        "name": "Uppladdningsbar pannlampa",
         "description": "Uppladdningsbar pannlampa med vitt och rött ljus, fast eller blinkande – perfekt på kvällspromenader, cykelturer och bilmekande. Den justerbara vinkeln gör att du enkelt riktar ljuset dit det behövs./nLampan laddas via USB-C och har 2–4 timmars batteritid. Justerbart pannband. Mått: 6 x 4 x 3,5 cm. ",
         "price": 199,
         "image": "images/004.jpg"
@@ -30,21 +30,21 @@
     {
         "id": "produkt-005",
         "name": "Bältesskärare och fönsterkross",
-        "description": "Startsida\nPandakatalogen\nBältesskärare och fönsterkross",
+        "description": "Smart produkt som snabbt hjälper dig ur bilen vid en olycka. Skär av bilbältet med det vassa, skyddade bladet och krossa bilrutan med det härdade stålhöljet. Produkten är liten nog att förvaras i handskfacket, men kraftfull nog för att rädda liv. Går att fästa på nyckelknippan.\nMått: 7,5 x 3 x 2 cm.",
         "price": 99,
         "image": "images/005.jpg"
     },
     {
         "id": "produkt-006",
         "name": "Reflekterande stickers 10-pack",
-        "description": "Startsida\nPandakatalogen\nReflekterande stickers 10-pack",
+        "description": "Självhäftande och reflekterande stickers som gör dig och familjen synlig i vintermörkret. Fästs på släta ytor, t.ex. på cyklar och hjälmar, väskor, barnvagn, gåstavar m.m.\nI setet ingår 10 stycken stickers. Diameter på stickers: 6 st med 3 cm, 4 st med 2 cm.",
         "price": 99,
         "image": "images/006.jpg"
     },
     {
         "id": "produkt-007",
         "name": "Nödradio",
-        "description": "7.Nödradio\nPris:\n499:-\nKompakt vevradio för både nödsituationer och vardagsbruk. Utrustad med FM/AM-radio, LED-lampa och inbyggd powerbank (2000 mAh) som gör det möjligt att ladda mobila enheter. Radion kan laddas på tre sätt: via inbyggd solpanel, handvev eller medföljande USB-kabel. För hemmet, bilen, båten, camping eller friluftsliv.\nVikt: 200g. Mått: 13 x 4,5 x 6,5 cm",
+        "description": "Kompakt vevradio för både nödsituationer och vardagsbruk. Utrustad med FM/AM-radio, LED-lampa och inbyggd powerbank (2000 mAh) som gör det möjligt att ladda mobila enheter. Radion kan laddas på tre sätt: via inbyggd solpanel, handvev eller medföljande USB-kabel. För hemmet, bilen, båten, camping eller friluftsliv.\nVikt: 200g. Mått: 13 x 4,5 x 6,5 cm",
         "price": 499,
         "image": "images/007.jpg"
     },
@@ -58,49 +58,49 @@
     {
         "id": "produkt-009",
         "name": "Glutenfritt - En bakbok för hela familjen",
-        "description": "Startsida\nPandakatalogen\nGlutenfritt - En bakbok för hela familjen",
+        "description": "När Martin Svensson fick reda på att hans son hade glutenallergi levde inte affärens utbud upp till förväntningarna. Martin lärde sig att baka eget glutenfritt bröd vilket var både roligare och lättare än han trott. Hans bok är en utmärkt källa till glutenfria alternativ och passar även de som vill variera sin bakning.\n100 sidor. Mått: 170 x 240 mm. Färg. Inbunden.",
         "price": 179,
         "image": "images/009.jpg"
     },
     {
         "id": "produkt-010",
         "name": "Justerbar bakningsram",
-        "description": "10.Justerbar bakningsram\nPris:\n149:-\nDen här justerbara formen gör det lättare att lyckas med dina bakverk! Passar lika bra till tårtbotten som till fudge och kola. Storleken anpassas enkelt till önskat mått och formen kan användas både i ugnen och frysen.\nTillverkad av rostfritt stål. Kan justeras i 3 storlekar: 15 x 15 cm, 15 x 28 cm, 28 x 28 cm.",
+        "description": "Den här justerbara formen gör det lättare att lyckas med dina bakverk! Passar lika bra till tårtbotten som till fudge och kola. Storleken anpassas enkelt till önskat mått och formen kan användas både i ugnen och frysen.\nTillverkad av rostfritt stål. Kan justeras i 3 storlekar: 15 x 15 cm, 15 x 28 cm, 28 x 28 cm.",
         "price": 149,
         "image": "images/010.jpg"
     },
     {
         "id": "produkt-011",
         "name": "Pumpvisp",
-        "description": "11.Pumpvisp\nPris:\n119:-\nSmart visp som inte kräver ström utan snurrar av sig själv när man ”pumpar” vispen mot skålens botten. Nu behöver du inte längre plocka fram utrustning med sladdar och förflytta dig till närmaste eluttag. Perfekt för vispgrädde, majonnäs, dressingar m.m.\nTillverkad av rostfritt stål. Mått: 30,5 cm.",
+        "description": "Smart visp som inte kräver ström utan snurrar av sig själv när man ”pumpar” vispen mot skålens botten. Nu behöver du inte längre plocka fram utrustning med sladdar och förflytta dig till närmaste eluttag. Perfekt för vispgrädde, majonnäs, dressingar m.m.\nTillverkad av rostfritt stål. Mått: 30,5 cm.",
         "price": 119,
         "image": "images/011.jpg"
     },
     {
         "id": "produkt-012",
         "name": "Familjens planeringskalender 2027",
-        "description": "Startsida\nPandakatalogen\nFamiljens planeringskalender 2027",
+        "description": "Håll koll på familjens aktiviteter med vår smarta planeringskalender med fem kolumner – en för varje familjemedlem. Med namnsdagsregister och generöst utrymme för anteckningar. Nu blir vardagslivet lite enklare och mer organiserat!\n13 blad. Mått: 250 x 350 mm. Färg. Spiralbunden.",
         "price": 159,
         "image": "images/012.jpg"
     },
     {
         "id": "produkt-013",
         "name": "Slickepottar 4 st",
-        "description": "13.Slickepottar 4 st\nPris:\n149:-\nEtt set med fyra smarta slickepottar i lite olika utformning. Nu får du enkelt ut allt ur burkar och skålar! Fina att ställa synliga i köket.\nTillverkade av silikon och FSC-certifierad bambu. Mått: 21 cm.",
+        "description": "Ett set med fyra smarta slickepottar i lite olika utformning. Nu får du enkelt ut allt ur burkar och skålar! Fina att ställa synliga i köket.\nTillverkade av silikon och FSC-certifierad bambu. Mått: 21 cm.",
         "price": 149,
         "image": "images/013.jpg"
     },
     {
         "id": "produkt-014",
         "name": "Body Scrubber",
-        "description": "för att exfoliera din hud och öka lystern. Den är tillverkad av mjukt, flexibelt silikon. Skrubba lätt under duschandet för att rensa bort smuts och döda hudceller. Det motverkar täppta porer och huden får chans att förnyas. Bandet på ovansidan håller fast skrubben mot din hand så att den inte tappas. Lätt att göra ren.\nMått: 11 x 11 x 4 cm.",
+        "description": "Body Scrubber för att exfoliera din hud och öka lystern. Den är tillverkad av mjukt, flexibelt silikon. Skrubba lätt under duschandet för att rensa bort smuts och döda hudceller. Det motverkar täppta porer och huden får chans att förnyas. Bandet på ovansidan håller fast skrubben mot din hand så att den inte tappas. Lätt att göra ren.\nMått: 11 x 11 x 4 cm.",
         "price": 99,
         "image": "images/014.jpg"
     },
     {
         "id": "produkt-015",
         "name": "Ringblomssalva",
-        "description": "15.Ringblomssalva\nPris:\n139:-\nEkologisk, mjukgörande och vårdande salva för hela familjen. Ringblomma (Calendula) har sedan gamla tider använts vid olika hudbesvär och hudirritationer. Perfekt att ha hemma eller med sig på resande fot.\nInnehåll: bivax, ekologisk kallpressad raps- och tistelolja, ringblomsextrakt. Volym: 60 ml.",
+        "description": "Ekologisk, mjukgörande och vårdande salva för hela familjen. Ringblomma (Calendula) har sedan gamla tider använts vid olika hudbesvär och hudirritationer. Perfekt att ha hemma eller med sig på resande fot.\nInnehåll: bivax, ekologisk kallpressad raps- och tistelolja, ringblomsextrakt. Volym: 60 ml.",
         "price": 139,
         "image": "images/015.jpg"
     },
@@ -114,35 +114,35 @@
     {
         "id": "produkt-017",
         "name": "Doftolja Snowleaf Apple",
-        "description": "17.Doftolja Snowleaf Apple\nPris:\n189:-\nLjuvlig doftolja i fin presentförpackning. Placera en eller flera trästickor i den aromatiska oljan och märk hur väldoft sprids i rummet. Du anpassar styrkan med antalet stickor. Fler stickor ger starkare doft. Håller i minst i 1-2 månader beroende på hur många stickor som används samtidigt.\nMått: 19 x 6 x 5 cm.",
+        "description": "Ljuvlig doftolja i fin presentförpackning. Placera en eller flera trästickor i den aromatiska oljan och märk hur väldoft sprids i rummet. Du anpassar styrkan med antalet stickor. Fler stickor ger starkare doft. Håller i minst i 1-2 månader beroende på hur många stickor som används samtidigt.\nMått: 19 x 6 x 5 cm.",
         "price": 189,
         "image": "images/017.jpg"
     },
     {
         "id": "produkt-018",
         "name": "Super low socks - 8 par, strl 36-40",
-        "description": "Startsida\nPandakatalogen\nSuper low socks - 8 par, strl 36-40",
+        "description": "Åtta par sköna ankelsockor, fyra par vita och fyra par svarta, med fin passform som fungerar bra i sneakers eller i andra låga skor där man inte vill att strumpan ska synas så mycket. Tvättas i 40°C.\nMaterial: 80 % bomull, 15 % polyamid, 5 % elastan.",
         "price": 179,
         "image": "images/018.jpg"
     },
     {
         "id": "produkt-019",
         "name": "Super low socks - 8 par, strl 41-45",
-        "description": "Startsida\nPandakatalogen\nSuper low socks - 8 par, strl 41-45",
+        "description": "Åtta par sköna ankelsockor, fyra par vita och fyra par svarta, med fin passform som fungerar bra i sneakers eller i andra låga skor där man inte vill att strumpan ska synas så mycket. Tvättas i 40°C.\nMaterial: 80 % bomull, 15 % polyamid, 5 % elastan.",
         "price": 179,
         "image": "images/019.jpg"
     },
     {
         "id": "produkt-020",
         "name": "Enkel och säker svampplockning",
-        "description": "Startsida\nPandakatalogen\nEnkel och säker svampplockning",
+        "description": "Svampplockning är mycket trevligt, men vilka svampar vågar man plocka? Med bokens handfasta tips kan du känna dig säker i svampmarkerna. Följ bokens enkla metod och lär dig vilka svampar som du kan plocka och vilka som är godast!\n79 sidor. Mått: 170 x 240 mm. Färg. Inbunden.",
         "price": 179,
         "image": "images/020.jpg"
     },
     {
         "id": "produkt-021",
         "name": "Svampkniv med borste",
-        "description": "21.Svampkniv med borste\nPris:\n179:-\nHopfällbar kniv i fodral för att plocka svamp i skogen! Kniven är liten och smidig (17 cm lång med bladet utfällt) och ligger bra i handen. På ena änden finns en borste för att putsa rent svampen. Kniven är lätt att arbeta med och får enkelt plats i fickan eller väskan.\nTillverkad av rostfritt stål. Handtag i FSC-märkt trä.",
+        "description": "Ihopfällbar kniv i fodral för att plocka svamp i skogen! Kniven är liten och smidig (17 cm lång med bladet utfällt) och ligger bra i handen. På ena änden finns en borste för att putsa rent svampen. Kniven är lätt att arbeta med och får enkelt plats i fickan eller väskan.\nTillverkad av rostfritt stål. Handtag i FSC-märkt trä.",
         "price": 179,
         "image": "images/021.jpg"
     },
@@ -156,77 +156,77 @@
     {
         "id": "produkt-023",
         "name": "Pussel 500 bitar - Tigerns värld",
-        "description": "Startsida\nPandakatalogen\nPussel 500 bitar - Tigerns värld",
+        "description": "Konstnären John Francis har som vanligt illustrerat årets pussel, exklusivt för Pandaförsäljningen. Årets motiv visar den siberiska tigern tillsammans med ett urval av djur och växter från dess habitat. På lådan finns information om varje djur. Pusslets runda form ger en rolig utmaning för hela familjen.\nTillverkat av återvunnet papper. Mått pussel: 48 cm diameter. Mått ask: 21 x 21 x 3 cm.",
         "price": 199,
         "image": "images/023.jpg"
     },
     {
         "id": "produkt-024",
         "name": "Dubbelväggade termoglas 2-pack",
-        "description": "Startsida\nPandakatalogen\nDubbelväggade termoglas 2-pack",
+        "description": "Två moderna termoglas som håller dryckens temperatur längre. Termoglasen är utrustade med dubbla väggar vilket ger dem en isolerande effekt som håller värme eller kyla längre än vanliga glas. Perfekt för kaffe och latte, te, glögg, smoothies eller kylande sommardrinkar. Tål ej att diskas i maskin.\nVolym: 2 st à 300 ml",
         "price": 229,
         "image": "images/024.jpg"
     },
     {
         "id": "produkt-025",
         "name": "Animal socks – 6 par, strl 37-39",
-        "description": "Startsida\nPandakatalogen\nAnimal socks – 6 par, strl 37-39",
+        "description": "6-pack strumpor i roliga mönster och fin kvalitet. Strumporna har förstärkning under foten. Tvättas i 40°C.\nMaterial: 70 % bomull, 10 % polyester, 18 % polyamid, 2 % elastan.",
         "price": 189,
         "image": "images/025.jpg"
     },
     {
         "id": "produkt-026",
         "name": "Animal socks – 6 par, strl 40-42",
-        "description": "Startsida\nPandakatalogen\nAnimal socks – 6 par, strl 40-42",
+        "description": "6-pack strumpor i roliga mönster och fin kvalitet. Strumporna har förstärkning under foten. Tvättas i 40°C.\nMaterial: 70 % bomull, 10 % polyester, 18 % polyamid, 2 % elastan.",
         "price": 189,
         "image": "images/026.jpg"
     },
     {
         "id": "produkt-027",
         "name": "Bondepraktikan",
-        "description": "fanns till hjälp för att sia om väder och vind långt innan SMHI och femdygnsprognoser på TV. Denna rika samling folkvisdom förklarar inte bara hur man ska tolka naturens tecken utan ger även vägledning om mycket annat i livet. Den har under flera hundra år varit en av Sveriges mest lästa böcker. Ta reda på vad jorden, himlen och havet kan berätta för dig!\n168 sidor. 140 x 215 mm. Inbunden.",
+        "description": "Bondepraktikan fanns till hjälp för att sia om väder och vind långt innan SMHI och femdygnsprognoser på TV. Denna rika samling folkvisdom förklarar inte bara hur man ska tolka naturens tecken utan ger även vägledning om mycket annat i livet. Den har under flera hundra år varit en av Sveriges mest lästa böcker. Ta reda på vad jorden, himlen och havet kan berätta för dig!\n168 sidor. 140 x 215 mm. Inbunden.",
         "price": 179,
         "image": "images/027.jpg"
     },
     {
         "id": "produkt-028",
         "name": "Källsorteringskassar 3 st",
-        "description": "Startsida\nPandakatalogen\nKällsorteringskassar 3 st",
+        "description": "Smart förvaring för förpackningar, burkar och annat som ska till återvinningen. Tre kassar i slitstarkt material som dessutom är uppmärkta så att hela familjen ser vad som ska slängas var.\nTillverkad av återvunnen PP-plast. Mått: 3 st 40 x 33 x 32 cm.",
         "price": 149,
         "image": "images/028.jpg"
     },
     {
         "id": "produkt-029",
         "name": "Lappat & lagat",
-        "description": "29.Lappat & lagat\nPris:\n269:-\nFörläng livet på dina kläder! Här lär du dig både snabba och omsorgsfulla lagningar. Läs om fallskärmsjägarnas nödlagningssöm, jeanslagningar och osynliga konststoppningar. Beskrivet finns också hur du lagar stickat och virkat, fixar spruckna sömmar och hur du skapar dekorativa lagningar som får synas.\n125 sidor. Mått: 240 x 173 mm. Färg. Inbunden.",
+        "description": "Förläng livet på dina kläder! Här lär du dig både snabba och omsorgsfulla lagningar. Läs om fallskärmsjägarnas nödlagningssöm, jeanslagningar och osynliga konststoppningar. Beskrivet finns också hur du lagar stickat och virkat, fixar spruckna sömmar och hur du skapar dekorativa lagningar som får synas.\n125 sidor. Mått: 240 x 173 mm. Färg. Inbunden.",
         "price": 269,
         "image": "images/029.jpg"
     },
     {
         "id": "produkt-030",
         "name": "Gallsåpa 500 ml",
-        "description": "30.Gallsåpa 500 ml\nPris:\n199:-\nFlytande rengörings- och fläckborttagningstvål. Passar för all sorts rengöring och ytor, även mot envisa klädfläckar som bär eller gräs. Såpan är 100% naturlig och utan kemikalier. Vid allrengöring kan den spädas i hink eller sprayflaska. För tuffare smuts och fläckar används den outspädd.\nVolym: 500 ml.",
+        "description": "Flytande rengörings- och fläckborttagningstvål. Passar för all sorts rengöring och ytor, även mot envisa klädfläckar som bär eller gräs. Såpan är 100% naturlig och utan kemikalier. Vid allrengöring kan den spädas i hink eller sprayflaska. För tuffare smuts och fläckar används den outspädd.\nVolym: 500 ml.",
         "price": 199,
         "image": "images/030.jpg"
     },
     {
         "id": "produkt-031",
         "name": "Galltvål 2 st",
-        "description": "31.Galltvål 2 st\nPris:\n149:-\nTvå fasta rengörings- och fläckborttagningstvålar för all sorts rengöring. Innehåller bl.a. oxgalla och klorofyll som är effektiva mot olja och fett samt fläckar från gräs, bär, frukt och grönsaker. Galltvålen innehåller endast naturliga ämnen, är biologiskt nedbrytbar och fri från konserveringsmedel.\n2 st tvålar à 100 g.",
+        "description": "Två fasta rengörings- och fläckborttagningstvålar för all sorts rengöring. Innehåller bl.a. oxgalla och klorofyll som är effektiva mot olja och fett samt fläckar från gräs, bär, frukt och grönsaker. Galltvålen innehåller endast naturliga ämnen, är biologiskt nedbrytbar och fri från konserveringsmedel.\n2 st tvålar à 100 g.",
         "price": 149,
         "image": "images/031.jpg"
     },
     {
         "id": "produkt-032",
         "name": "Hamburgarsmasher",
-        "description": "32.Hamburgarsmasher\nPris:\n299:-\nBjud på lyxiga hamburgare med denna smasher i gjutjärn med räfflad yta. Smasha ut tunna burgare i en rykande het stekpanna eller till grillen. Tack vare kontaktytan, värmen och tunnheten så tillagas köttet snabbt, behåller sin saftighet och får en ruskigt god, krispig yta.\nMått: 17,5 cm i diameter.",
+        "description": "Bjud på lyxiga hamburgare med denna smasher i gjutjärn med räfflad yta. Smasha ut tunna burgare i en rykande het stekpanna eller till grillen. Tack vare kontaktytan, värmen och tunnheten så tillagas köttet snabbt, behåller sin saftighet och får en ruskigt god, krispig yta.\nMått: 17,5 cm i diameter.",
         "price": 299,
         "image": "images/032.jpg"
     },
     {
         "id": "produkt-033",
         "name": "Pizzakniv och skärare",
-        "description": "33.Pizzakniv och skärare\nPris:\n199:-\nAtt baka egen pizza är populärare än någonsin, men oavsett om du bakar själv eller handlar från den lokala pizzerian kan du använda denna pizzaskärare och kniv. Snabbt och enkelt får alla familjemedlemmar perfekta pizzaskivor i deras smak.\nTillverkade av rostfritt stål. Handtag i akaciaträ. Mått: 26 x 6 x 1 cm.",
+        "description": "Att baka egen pizza är populärare än någonsin, men oavsett om du bakar själv eller handlar från den lokala pizzerian kan du använda denna pizzaskärare och kniv. Snabbt och enkelt får alla familjemedlemmar perfekta pizzaskivor i deras smak.\nTillverkade av rostfritt stål. Handtag i akaciaträ. Mått: 26 x 6 x 1 cm.",
         "price": 199,
         "image": "images/033.jpg"
     },
@@ -254,7 +254,7 @@
     {
         "id": "produkt-037",
         "name": "Calgary knivset",
-        "description": "37.Calgary knivset\nPris:\n499:-\nFin ask med fem knivar från svenska Dorre, tillverkade av rostfritt stål och med stadiga handtag. Hålen i bladen gör att råvarorna lossnar enklare. Setet inkluderar knivar för all sorts matlagning: kockkniv (32 cm), kniv i japansk stil (28 cm), brödkniv (32 cm), allroundkniv (23 cm) och skalkniv (20 cm).",
+        "description": "Fin ask med fem knivar från svenska Dorre, tillverkade av rostfritt stål och med stadiga handtag. Hålen i bladen gör att råvarorna lossnar enklare. Setet inkluderar knivar för all sorts matlagning: kockkniv (32 cm), kniv i japansk stil (28 cm), brödkniv (32 cm), allroundkniv (23 cm) och skalkniv (20 cm).",
         "price": 499,
         "image": "images/037.jpg"
     },
@@ -268,35 +268,35 @@
     {
         "id": "produkt-039",
         "name": "Ugnsform i silikon",
-        "description": "för enkel matlagning och snabb rengöring. Maten eller bakverken släpper lätt utan att bränna fast och diskandet tar minimalt med tid. Förträfflig till gratänger, bröd, rostade grönsaker, lasagne och mycket mer. För temperaturer mellan –40°C och 230°C. Tål ugn och frys. Kan diskas i maskin.\nMått: 26 x 24 x 5,5 cm.",
+        "description": "Ungsform i silikon för enkel matlagning och snabb rengöring. Maten eller bakverken släpper lätt utan att bränna fast och diskandet tar minimalt med tid. Förträfflig till gratänger, bröd, rostade grönsaker, lasagne och mycket mer. För temperaturer mellan –40°C och 230°C. Tål ugn och frys. Kan diskas i maskin.\nMått: 26 x 24 x 5,5 cm.",
         "price": 189,
         "image": "images/039.jpg"
     },
     {
         "id": "produkt-040",
         "name": "Tubklämmor med tassar 2 st",
-        "description": "Startsida\nPandakatalogen\nTubklämmor med tassar 2 st",
+        "description": "Minska matsvinnet med två smarta tubklämmor. Fäst klämmorna i slutet på dina tuber som kaviar, tomatpuré och mjukost. Klämmorna vrids som en nyckel och säkerställer att inget går till spillo. Klämmorna passar de flesta tuber.\nTillverkade av rostfritt stål. Mått: 13 cm (8,5 cm öppning).",
         "price": 99,
         "image": "images/040.jpg"
     },
     {
         "id": "produkt-041",
         "name": "Smörknivar 3 st",
-        "description": "41.Smörknivar 3 st\nPris:\n129:-\nEtt set med små, lyxiga smörknivar i FSC certifierat schimaträ – perfekta till marmelad, färskost och smör. De blir ett elegant inslag på både vardags- och festdukningen. För längre hållbarhet rekommenderas handdisk. Handdisk rekommenderas för att förlänga livslängden.\nLängd 14,5 cm.",
+        "description": "Ett set med små, lyxiga smörknivar i FSC certifierat schimaträ – perfekta till marmelad, färskost och smör. De blir ett elegant inslag på både vardags- och festdukningen. För längre hållbarhet rekommenderas handdisk. Handdisk rekommenderas för att förlänga livslängden.\nLängd 14,5 cm.",
         "price": 129,
         "image": "images/041.jpg"
     },
     {
         "id": "produkt-042",
         "name": "Smart kökstång i silikon 2-i-1",
-        "description": "Startsida\nPandakatalogen\nSmart kökstång i silikon 2-i-1",
+        "description": "Smart köksredskap som kombinerar en klassisk tång med spatel! Vänd som med en stekspade och greppa som en tång. Tack vare det mjuka silikonet mellan tängerna kan du både plocka upp köttbitar och grönsaker, röra om i grytorna, flippa dina ägg och plättar samt servera på tallriken. Tillverkad av rostfritt stål med silikondetaljer.\nMått: 26,5 cm.",
         "price": 129,
         "image": "images/042.jpg"
     },
     {
         "id": "produkt-043",
         "name": "Silikonpensel med behållare",
-        "description": "Startsida\nPandakatalogen\nSilikonpensel med behållare",
+        "description": "Förenkla matlagning och grillande med en smart silikonpensel med behållare! Fyll behållaren med din favoritmarinad, olja, smält smör, vinägrett eller annat du vill pensla på och skruva på korken. Innehållet kommer ut direkt på penseln så att det är lätt att smaksätta kött, fisk, kyckling och annat utan att smutsa ned runtom. Lätt att diska.\nMått: 12 x 5 cm.",
         "price": 99,
         "image": "images/043.jpg"
     },
@@ -310,56 +310,56 @@
     {
         "id": "produkt-045",
         "name": "Lättlera 6-pack",
-        "description": "45.Lättlera 6-pack\nPris:\n129:-\nLättlera i fina pastellfärger som lämpar sig bra för både yngre och äldre pysslare. Den är lätt att arbeta med och tack vare de härliga färgerna blir skapelserna extra snygga. Låt kreationerna stå framme när det pysslats färdigt. Leran stelnar av sig själv i luften!\nMått: 22 x 7,5 x 7,5 cm.",
+        "description": "Lättlera i fina pastellfärger som lämpar sig bra för både yngre och äldre pysslare. Den är lätt att arbeta med och tack vare de härliga färgerna blir skapelserna extra snygga. Låt kreationerna stå framme när det pysslats färdigt. Leran stelnar av sig själv i luften!\nMått: 22 x 7,5 x 7,5 cm.",
         "price": 129,
         "image": "images/045.jpg"
     },
     {
         "id": "produkt-046",
         "name": "Bamse Vinterpyssel med färgpennor",
-        "description": "Startsida\nPandakatalogen\nBamse Vinterpyssel med färgpennor",
+        "description": "Följ med Bamse och hans vänner på ett pysslande äventyr! Här hittar du allt från pussel, labyrinter och rebusar till färgläggning, kluriga frågor och spännande ”titta och hitta”-uppdrag. Dessutom ingår klistermärken och färgpennor i pigga färger som gör bilderna extra fina. Perfekt för mysiga vinterdagar!\n24 sidor. Mått: 210 x 297 mm. Färg.",
         "price": 139,
         "image": "images/046.jpg"
     },
     {
         "id": "produkt-047",
         "name": "Familjekalender 2027 Elsa Beskow - Tomtebobarnen",
-        "description": "Startsida\nPandakatalogen\nFamiljekalender 2027 Elsa Beskow - Tomtebobarnen",
+        "description": "Praktisk familjekalender med tolv underbara motiv från Elsa Beskows älskade bok Tomtebobarnen. Kalendern innehåller namnsdagsregister och fem kolumner med gott om plats för anteckningar!\nMått: 220 x 430 mm. Färg. Spiralbunden.",
         "price": 159,
         "image": "images/047.jpg"
     },
     {
         "id": "produkt-048",
         "name": "Julklappsetiketter 20 st",
-        "description": "48.Julklappsetiketter 20 st\nPris:\n99:-\nTjugo smakfulla och rustika etiketter med snöre till årets julklappar. Etiketterna kommer i varierande storlekar, färger och motiv – alla med stansade hål och tvinnade hampsnören.\nTillverkade av återvunnet papper. Mått: 10 st 6 x 10 cm och 10 st 4 x 6 cm. 20 st hampsnören på 32 cm.",
+        "description": "Tjugo smakfulla och rustika etiketter med snöre till årets julklappar. Etiketterna kommer i varierande storlekar, färger och motiv – alla med stansade hål och tvinnade hampsnören.\nTillverkade av återvunnet papper. Mått: 10 st 6 x 10 cm och 10 st 4 x 6 cm. 20 st hampsnören på 32 cm.",
         "price": 99,
         "image": "images/048.jpg"
     },
     {
         "id": "produkt-049",
         "name": "Christmas socks - 3 par, strl 33-36",
-        "description": "Startsida\nPandakatalogen\nChristmas socks - 3 par, strl 33-36",
+        "description": "Tre par strumpor i fin kvalitet med roliga och dekorativa julmotiv. Perfekt som julklapp under granen eller för att pynta fötterna inför julafton! Maskintvätt 40°C.\nMaterial: 75% bomull, 23% polyamid, 2% elestan.",
         "price": 149,
         "image": "images/049.jpg"
     },
     {
         "id": "produkt-050",
         "name": "Christmas socks - 3 par, strl 37-40",
-        "description": "Startsida\nPandakatalogen\nChristmas socks - 3 par, strl 37-40",
+        "description": "Tre par strumpor i fin kvalitet med roliga och dekorativa julmotiv. Perfekt som julklapp under granen eller för att pynta fötterna inför julafton! Maskintvätt 40°C.\nMaterial: 75% bomull, 23% polyamid, 2% elestan.",
         "price": 149,
         "image": "images/050.jpg"
     },
     {
         "id": "produkt-051",
         "name": "Christmas socks - 3 par, strl 41-45",
-        "description": "Startsida\nPandakatalogen\nChristmas socks - 3 par, strl 41-45",
+        "description": "Tre par strumpor i fin kvalitet med roliga och dekorativa julmotiv. Perfekt som julklapp under granen eller för att pynta fötterna inför julafton! Maskintvätt 40°C.\nMaterial: 75% bomull, 23% polyamid, 2% elestan.",
         "price": 149,
         "image": "images/051.jpg"
     },
     {
         "id": "produkt-052",
         "name": "Eko-MIG",
-        "description": "52.Eko-MIG\nPris:\n299:-\nRoligt frågespel med 505 frågor om Sverige, Mat & hälsa, Världen, Vad är rätt och Djur & natur. Framtaget med WWF och Naturskyddsföreningen. Tärningen bestämmer vilka kategorier spelarna får välja mellan och den som först svarar rätt i alla ämnen vinner.\nInnehåller frågor, block, penna, tärning och regler. FSC- och Svanenmärkt. Tillverkat i Sverige.",
+        "description": "Roligt frågespel med 505 frågor om Sverige, Mat & hälsa, Världen, Vad är rätt och Djur & natur. Framtaget med WWF och Naturskyddsföreningen. Tärningen bestämmer vilka kategorier spelarna får välja mellan och den som först svarar rätt i alla ämnen vinner.\nInnehåller frågor, block, penna, tärning och regler. FSC- och Svanenmärkt. Tillverkat i Sverige.",
         "price": 299,
         "image": "images/052.jpg"
     },
@@ -373,14 +373,14 @@
     {
         "id": "produkt-054",
         "name": "Svenska däggdjur",
-        "description": "54.Svenska däggdjur\nPris:\n189:-\nNyskapande faktabok med 46 djurarter i text, lekfulla illustrationer och överskådlig grafik. Här finns mängder av fakta för alla barn. Lär känna bl.a. gråsälen, igelkotten, uttern och älgen. Hur ser de ut, hur stora är de och hur lever de? Skriven av Martin Emtenäs från Mitt i naturen och Det stora fågeläventyret.\n76 sidor. Mått: 175 x 237 mm. Färg. Inbunden.",
+        "description": "Nyskapande faktabok med 46 djurarter i text, lekfulla illustrationer och överskådlig grafik. Här finns mängder av fakta för alla barn. Lär känna bl.a. gråsälen, igelkotten, uttern och älgen. Hur ser de ut, hur stora är de och hur lever de? Skriven av Martin Emtenäs från Mitt i naturen och Det stora fågeläventyret.\n76 sidor. Mått: 175 x 237 mm. Färg. Inbunden.",
         "price": 189,
         "image": "images/054.jpg"
     },
     {
         "id": "produkt-055",
         "name": "4 st träpussel - Pettson & Findus",
-        "description": "Startsida\nPandakatalogen\n4 st träpussel - Pettson & Findus",
+        "description": "Katten Findus och gubben Pettson har alltid något finurligt och kul för sig! I denna fina pussellåda finns fyra träpussel på tolv bitar vardera, samtliga med spännande detaljer som gör det extra roligt för barnen.\nMått låda: 20 x 14 cm. Mått pussel: 17,5 x 12 cm.",
         "price": 189,
         "image": "images/055.jpg"
     },
@@ -394,7 +394,7 @@
     {
         "id": "produkt-057",
         "name": "Smoothies för barn",
-        "description": "57.Smoothies för barn\nPris:\n179:-\nGoda smoothies på ingredienser som oftast finns hemma! Författaren Eliq Maranik tog hjälp av 30 barn som har lagat och smakat sig fram till de 32 recepten. Boken utgår från ett ekologiskt miljötänk och till varje recept finns ett experiment, fakta om frukt och grönt eller svar på barnens frågor.\n78 sidor. Mått: 175 x 245 mm. Färg. Inbunden.",
+        "description": "Goda smoothies på ingredienser som oftast finns hemma! Författaren Eliq Maranik tog hjälp av 30 barn som har lagat och smakat sig fram till de 32 recepten. Boken utgår från ett ekologiskt miljötänk och till varje recept finns ett experiment, fakta om frukt och grönt eller svar på barnens frågor.\n78 sidor. Mått: 175 x 245 mm. Färg. Inbunden.",
         "price": 179,
         "image": "images/057.jpg"
     },
@@ -408,56 +408,56 @@
     {
         "id": "produkt-059",
         "name": "Grönsaksstrimlare och skalare",
-        "description": "Startsida\nPandakatalogen\nGrönsaksstrimlare och skalare",
+        "description": "Gör matlagningen festligare för både barn och vuxna med dessa strimlare och skalare. Skala grönsaker, strimla din egen zucchinispagetti och servera morötter, gurka, rotsaker m.m. i trevliga, tunna skivor. Både vackert och gott!\nTillverkade av rostfritt stål. Mått: 15,5 x 2,5 x 1 cm.",
         "price": 129,
         "image": "images/059.jpg"
     },
     {
         "id": "produkt-060",
         "name": "Familjekalender Djur & Natur 2027",
-        "description": "Startsida\nPandakatalogen\nFamiljekalender Djur & Natur 2027",
+        "description": "Domherrar på snöiga grenar, trollsländor vid näckrosdammen – årets naturkalender följer de svenska årstiderna med vackra akvarellillustrationer månad för månad. Stort format med kolumner för hela familjen, namnsdagar och röda söndagar.\nTryckt på FSC-certifierat papper. Mått: 220 x 430 mm. Färg. Spiralbunden.",
         "price": 159,
         "image": "images/060.jpg"
     },
     {
         "id": "produkt-061",
         "name": "Muffinsformar i silikon, 12-pack",
-        "description": "Startsida\nPandakatalogen\nMuffinsformar i silikon, 12-pack",
+        "description": "Tolv muffinsformar av silikon som kan användas om och om igen. Tack vare materialet så släpper bakverken enkelt utan att du behöver smörja dem först. Formarna tål temperaturer upp till 250°C  och kan även placeras i frysen.\nMått: 6 cm i diameter och 3 cm höga.",
         "price": 129,
         "image": "images/061.jpg"
     },
     {
         "id": "produkt-062",
         "name": "Handduk Tiger",
-        "description": "62.Handduk Tiger\nPris:\n149:-\nSkön handduk med fint motiv och tjock, härlig frotté av ekologiskt odlad bomull.\nMått: 50 x 70 cm.",
+        "description": "Skön handduk med fint motiv och tjock, härlig frotté av ekologiskt odlad bomull.\nMått: 50 x 70 cm.",
         "price": 149,
         "image": "images/062.jpg"
     },
     {
         "id": "produkt-063",
         "name": "Badhandduk Tiger",
-        "description": "63.Badhandduk Tiger\nPris:\n299:-\nBadhandduk tillverkad av ekologiskt odlad bomull, vävd i en tjock och härlig frotté.\nMått: 70 x 130 cm.",
+        "description": "Badhandduk tillverkad av ekologiskt odlad bomull, vävd i en tjock och härlig frotté.\nMått: 70 x 130 cm.",
         "price": 299,
         "image": "images/063.jpg"
     },
     {
         "id": "produkt-064",
         "name": "Dundermjukgörande salva",
-        "description": "64.Dundermjukgörande salva\nPris:\n139:-\nEkologisk och mjukgörande salva från Lendelunden som lätt går in i huden. Perfekt för alla som vill vårda sina fötter och händer lite extra eller för de med torr hud. Fungerar även för hundens tassar!\nInnehåll: ekologisk rapsolja, vårdande bivax, mjukgörande ullfett, eterisk olja av lavendel och rosmarinextrakt. Volym: 60 ml.",
+        "description": "Ekologisk och mjukgörande salva från Lendelunden som lätt går in i huden. Perfekt för alla som vill vårda sina fötter och händer lite extra eller för de med torr hud. Fungerar även för hundens tassar!\nInnehåll: ekologisk rapsolja, vårdande bivax, mjukgörande ullfett, eterisk olja av lavendel och rosmarinextrakt. Volym: 60 ml.",
         "price": 139,
         "image": "images/064.jpg"
     },
     {
         "id": "produkt-065",
         "name": "Krysskungens stora höstkorsord",
-        "description": "Startsida\nPandakatalogen\nKrysskungens stora höstkorsord",
+        "description": "Kryssnöje som räcker hela hösten! Njut av 132 sidor med en härlig blandning av populära favoriter som bildkryss, sudokun, krypton och ordflätor. En perfekt stunds avkoppling för både nya och erfarna kryssälskare.",
         "price": 139,
         "image": "images/065.jpg"
     },
     {
         "id": "produkt-066",
         "name": "LED-blockljus 2-pack",
-        "description": "66.LED-blockljus 2-pack\nPris:\n179:-\nTvå smakfulla och brandsäkra blockljus i vax. Ljusen skimrar naturtroget med ett varmvitt sken och har inbyggda timers. För inomhusbruk.\nMått: 7,5 x 5 cm. Drivs av batterier (medföljer).",
+        "description": "Två smakfulla och brandsäkra blockljus i vax. Ljusen skimrar naturtroget med ett varmvitt sken och har inbyggda timers. För inomhusbruk.\nMått: 7,5 x 5 cm. Drivs av batterier (medföljer).",
         "price": 179,
         "image": "images/066.jpg"
     },
@@ -471,14 +471,14 @@
     {
         "id": "produkt-068",
         "name": "Bivaxdukar 3 st",
-        "description": "68.Bivaxdukar 3 st\nPris:\n169:-\nFörvara matvaror naturligt och plastfritt! Bivaxdukar fyller samma funktion som plastfolie. Linda dukarna runt ost, grönsaker, frukt eller mat. Bivaxets antibakteriella egenskaper håller råvarorna fräscha och fina.\nTillverkade av ekologisk bomull och bivax. Mått: 1 st 33 x 33 cm, 1 st 28 x 28 cm och 1 st 20 x 20 cm.",
+        "description": "Förvara matvaror naturligt och plastfritt! Bivaxdukar fyller samma funktion som plastfolie. Linda dukarna runt ost, grönsaker, frukt eller mat. Bivaxets antibakteriella egenskaper håller råvarorna fräscha och fina.\nTillverkade av ekologisk bomull och bivax. Mått: 1 st 33 x 33 cm, 1 st 28 x 28 cm och 1 st 20 x 20 cm.",
         "price": 169,
         "image": "images/068.jpg"
     },
     {
         "id": "produkt-069",
         "name": "Skål och durkslag 2-i-1",
-        "description": "69.Skål och durkslag 2-i-1\nPris:\n149:-\nEtt stilrent duo set för det moderna köket. Skölj frukt och grönt, häll av pastan och servera direkt i den praktiska skålen. Delarna staplas smidigt i varandra och ger både funktion och form i ett.\nTillverkade av 60% återvunnen plast och 40% vanlig plast. Mått: 22,5 x 24,5 x 12 cm.",
+        "description": "Ett stilrent duo set för det moderna köket. Skölj frukt och grönt, häll av pastan och servera direkt i den praktiska skålen. Delarna staplas smidigt i varandra och ger både funktion och form i ett.\nTillverkade av 60% återvunnen plast och 40% vanlig plast. Mått: 22,5 x 24,5 x 12 cm.",
         "price": 149,
         "image": "images/069.jpg"
     },
@@ -492,14 +492,14 @@
     {
         "id": "produkt-071",
         "name": "Barnens bästa kokbok",
-        "description": "71.Barnens bästa kokbok\nPris:\n149:-\nEnkel och tydlig kokbok med barnens favoriter! Här finns goda och lättlagade middagar, mellanmål, luncher och bakverk. Recepten är utformade med tydliga steg-för-steg-anvisningar och bilder, så att barnen kan göra det mesta på egen hand.\n33 sidor. Mått: 220 x 300 mm. Färg. Spiralbunden.",
+        "description": "Enkel och tydlig kokbok med barnens favoriter! Här finns goda och lättlagade middagar, mellanmål, luncher och bakverk. Recepten är utformade med tydliga steg-för-steg-anvisningar och bilder, så att barnen kan göra det mesta på egen hand.\n33 sidor. Mått: 220 x 300 mm. Färg. Spiralbunden.",
         "price": 149,
         "image": "images/071.jpg"
     },
     {
         "id": "produkt-072",
         "name": "Non-stick pajform",
-        "description": "72.Non-stick pajform\nPris:\n129:-\nPajform med non-stick-beläggning så att pajer och kakor lossnar lätt utan smör eller olja. Utmärkt till både matiga pajer som Quiche Lorraine och västerbottenpaj till efterrätter som kladdkaka, smulpaj och cheesecake.\nMått: 32 cm i diameter och 3,5 cm hög.",
+        "description": "Pajform med non-stick-beläggning så att pajer och kakor lossnar lätt utan smör eller olja. Utmärkt till både matiga pajer som Quiche Lorraine och västerbottenpaj till efterrätter som kladdkaka, smulpaj och cheesecake.\nMått: 32 cm i diameter och 3,5 cm hög.",
         "price": 129,
         "image": "images/072.jpg"
     },
@@ -513,21 +513,21 @@
     {
         "id": "produkt-074",
         "name": "Grillampa med magnet",
-        "description": "74.Grillampa med magnet\nPris:\n179:-\nBöjbar LED-lampa med magnet i botten som gör att den står stadigt på grillen – perfekt på sommarkvällar eller för entusiaster som grillar året runt. Lampan går att vinkla så att ljuset hamnar rätt. Givetvis kan lampan även användas till annat – t.ex. vid bilmekandet.\nMått: ca 24 hög med böjbar topp. Drivs av 3 st AAA-batterier (ingår ej).",
+        "description": "Böjbar LED-lampa med magnet i botten som gör att den står stadigt på grillen – perfekt på sommarkvällar eller för entusiaster som grillar året runt. Lampan går att vinkla så att ljuset hamnar rätt. Givetvis kan lampan även användas till annat – t.ex. vid bilmekandet.\nMått: ca 24 hög med böjbar topp. Drivs av 3 st AAA-batterier (ingår ej).",
         "price": 179,
         "image": "images/074.jpg"
     },
     {
         "id": "produkt-075",
         "name": "Ugnsmatta för spill",
-        "description": "75.Ugnsmatta för spill\nPris:\n99:-\nUndvik inbrända matrester och spill i din ugn! Den här smarta ugnsmattan placeras i botten av ugnen och tar hand om allting som droppar och faller ned. Tillverkad av glasfiber med non-stick-beläggning. Lätt att diska och passar alla standardugnar.\nMått: 50 x 40 cm. Tål max 260°C.\nOBS! Ej för ugnar drivna på gas.",
+        "description": "Undvik inbrända matrester och spill i din ugn! Den här smarta ugnsmattan placeras i botten av ugnen och tar hand om allting som droppar och faller ned. Tillverkad av glasfiber med non-stick-beläggning. Lätt att diska och passar alla standardugnar.\nMått: 50 x 40 cm. Tål max 260°C.\nOBS! Ej för ugnar drivna på gas.",
         "price": 99,
         "image": "images/075.jpg"
     },
     {
         "id": "produkt-076",
         "name": "Stålflaska 50 cl – Guld",
-        "description": "76.Stålflaska 50 cl – Guld\nPris:\n249:-\nVattenflaska i snygg design med vakuum och dubbla stålväggar för extra bra isolering utan kondens. Flaskan håller drycken kall i upp till 8 timmar eller varm i upp till 16 timmar.\nTillverkad av rostfritt stål. Diskas för hand. Volym: 50 cl.",
+        "description": "Vattenflaska i snygg design med vakuum och dubbla stålväggar för extra bra isolering utan kondens. Flaskan håller drycken kall i upp till 8 timmar eller varm i upp till 16 timmar.\nTillverkad av rostfritt stål. Diskas för hand. Volym: 50 cl.",
         "price": 249,
         "image": "images/076.jpg"
     },
