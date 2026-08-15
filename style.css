@@ -726,16 +726,26 @@ textarea:focus {
    FOOTER
 ========================= */
 
+/* =========================
+   FOOTER
+   ========================= */
+
 footer {
+    margin-top: 60px;
     padding: 30px 0;
-
-    background: #1e241f;
-
-    color: #dfe4df;
-
     text-align: center;
+    background: #f5f5f5;
+}
 
-    font-size: 0.9rem;
+footer p {
+    margin: 0;
+}
+
+/* Länkar i footern */
+
+footer a {
+    color: blue;
+    text-decoration: underline;
 }
 
 
