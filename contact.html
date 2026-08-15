@@ -1,0 +1,61 @@
+<form
+    id="contact-form"
+    action="DIN_FORMSPREE_URL"
+    method="POST"
+>
+    <h2>Har du en fråga?</h2>
+
+    <label for="name">
+        Namn
+    </label>
+
+    <input
+        type="text"
+        id="name"
+        name="name"
+        required
+    >
+
+    <label for="email">
+        E-post
+    </label>
+
+    <input
+        type="email"
+        id="email"
+        name="email"
+    >
+
+    <label for="phone">
+        Telefonnummer
+    </label>
+
+    <input
+        type="tel"
+        id="phone"
+        name="phone"
+    >
+
+    <label for="question">
+        Din fråga
+    </label>
+
+    <textarea
+        id="question"
+        name="question"
+        rows="6"
+        required
+    ></textarea>
+
+    <p>
+        Ange antingen e-postadress eller telefonnummer
+        så återkommer jag så snart som möjligt!
+    </p>
+
+    <button
+        type="submit"
+        class="button"
+    >
+        Skicka fråga
+    </button>
+</form>
